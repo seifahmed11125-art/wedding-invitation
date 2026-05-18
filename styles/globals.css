@@ -321,14 +321,14 @@ h3 {
     background: linear-gradient(rgba(245, 240, 235, 0.45), rgba(245, 240, 235, 0.45)), 
                 url('/hero.jpeg');
     background-size: cover;
-    background-position: center center;
+    background-position: center 5%;
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
 }
 @media (max-width: 768px) {
     .hero {
-        height: 80vh;
+        height: 100vh;
         background-position: center 5%;
     }
 }
