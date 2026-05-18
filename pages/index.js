@@ -116,9 +116,6 @@ export default function Home() {
             <p className="hero-subtitle">Together with their families</p>
             <h1 className="couple-names">Seif <span className="ampersand">&</span> Manar</h1>
             <p className="hero-tagline">Are getting married</p>
-            <div className="scroll-indicator">
-              <span></span>
-            </div>
           </div>
         </section>
 
