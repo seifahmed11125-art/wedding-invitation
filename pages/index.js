@@ -121,7 +121,7 @@ export default function Home() {
 
         <section id="countdown-section" className="countdown-section reveal">
           <div className="container">
-            <h2 className="section-title">Counting Down to the Big Day</h2>
+            <h2 className="section-title">CountDown to the Big Day</h2>
             <p className="wedding-date-display">July 30, 2026</p>
             <div className="countdown-container" id="countdown">
               {!timeLeft.isFinished ? (

@@ -314,7 +314,7 @@ h3 {
 
 /* --- Hero Section --- */
 .hero {
-    height: 110vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,8 +344,8 @@ h3 {
     letter-spacing: 8px;
     font-size: 0.8rem;
     font-weight: 500;
-    color: var(--color-gold);
-    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.6);
+    color: var(--color-text);
+    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.7);
     margin-bottom: 1.5rem;
 }
 
@@ -369,7 +369,7 @@ h3 {
     font-size: 1.2rem;
     letter-spacing: 4px;
     color: var(--color-text);
-    text-shadow: 0 1px 6px rgba(255, 255, 255, 0.7);
+    text-shadow: 0 1px 6px rgba(255, 255, 255, 0.6);
 }
 
 /* --- Countdown Section --- */
