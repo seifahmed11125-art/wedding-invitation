@@ -437,7 +437,7 @@ h1, h2, h3, .monogram {
 
 .map-placeholder {
     height: 500px;
-    background: url('location.png');
+    background: url('/location.png');
     background-size: cover;
     background-position: center;
     display: flex;
