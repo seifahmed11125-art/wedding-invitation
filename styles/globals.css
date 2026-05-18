@@ -314,16 +314,17 @@ h3 {
 
 /* --- Hero Section --- */
 .hero {
-    height: 100vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(250, 249, 246, 0.6), rgba(250, 249, 246, 0.6)), 
-                url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2069&auto=format&fit=crop');
+    background: linear-gradient(rgba(245, 240, 235, 0.45), rgba(245, 240, 235, 0.45)), 
+                url('/hero.jpeg');
     background-size: cover;
-    background-position: center;
+    background-position: center 5%;
     position: relative;
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 .hero-content {
@@ -343,13 +344,15 @@ h3 {
     letter-spacing: 8px;
     font-size: 0.8rem;
     font-weight: 500;
-    color: var(--color-gold-muted);
+    color: var(--color-gold);
+    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.6);
     margin-bottom: 1.5rem;
 }
 
 .couple-names {
     font-size: clamp(3.5rem, 12vw, 7rem);
     color: var(--color-mauve);
+    text-shadow: 1px 1px 12px rgba(255, 255, 255, 0.8), 2px 2px 4px rgba(0,0,0,0.08);
     margin-bottom: 1.5rem;
     line-height: 1.1;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.05);
@@ -359,13 +362,14 @@ h3 {
     font-family: var(--font-sans);
     font-style: normal;
     font-size: 0.6em;
-    color: var(--color-gold-muted);
+    color: var(--color-gold);
 }
 
 .hero-tagline {
     font-size: 1.2rem;
     letter-spacing: 4px;
-    color: var(--color-text-light);
+    color: var(--color-text);
+    text-shadow: 0 1px 6px rgba(255, 255, 255, 0.7);
 }
 
 /* --- Countdown Section --- */
